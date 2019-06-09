@@ -1,2 +1,2 @@
 # Game-Jam-10
-Game created for the 10th Santa Maria's Game Jam.
+Jogo criado para a 10ª Game Jam de Santa Maria.
