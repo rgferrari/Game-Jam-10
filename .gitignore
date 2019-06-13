@@ -15,6 +15,9 @@ sysinfo.txt
 # Visual Studio 2019 cache directory
 .vs/
 
+# Vscode
+.vscode/
+
 ###
 # VS/MD solution and project files
 ###
