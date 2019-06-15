@@ -15,6 +15,10 @@ public class CountDown : MonoBehaviour
     void Update()
     {
         countdown.text = ("" + timeLeft); //Showing the Score on the Canvas
+        if (timeLeft <= 0)
+        {
+            Debug.Log("Perdeu!");
+        }
     }
     //Simple Coroutine
     IEnumerator LoseTime()
