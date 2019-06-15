@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject UIkey;
+    private bool foundTheKey = false;
+    private CountDown countDown;
     private Animator animator;
     private Rigidbody2D playerRigidbody2D;
     private float moveSpeed = 100f;
@@ -13,6 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        countDown = GetComponent<CountDown>();
         playerRigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -30,5 +34,22 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movement = new Vector2(horizontalMove * moveSpeed * Time.fixedDeltaTime, verticalMove * moveSpeed * Time.fixedDeltaTime);
         playerRigidbody2D.velocity = movement;
+    }
+
+    void OnCollisionEnter2D(Collision2D collide)
+    {
+        if (collide.gameObject.tag == "Fuel")
+        {
+            Debug.Log("Pegou Gasolina");
+            Destroy(collide.gameObject);
+            countDown.timeLeft += 10;
+        }
+        if (collide.gameObject.tag == "Key")
+        {
+            Debug.Log("Pegou Chave");
+            Destroy(collide.gameObject);
+            foundTheKey = true;
+            UIkey.SetActive(true);
+        }
     }
 }

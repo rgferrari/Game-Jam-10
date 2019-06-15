@@ -1,7 +1,154 @@
 fileFormatVersion: 2
 guid: aa4bd76e19ee98c4ea67380e8d478201
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2956791701315902555
+    second: Terrain Tiles_safe_0
+  - first:
+      213: -2011842057680911295
+    second: Terrain Tiles_safe_1
+  - first:
+      213: -2564945379663006814
+    second: Terrain Tiles_safe_2
+  - first:
+      213: -7417560687281426536
+    second: Terrain Tiles_safe_3
+  - first:
+      213: 7746443538490058905
+    second: Terrain Tiles_safe_4
+  - first:
+      213: 6092876256978605645
+    second: Terrain Tiles_safe_5
+  - first:
+      213: -3562910177922219419
+    second: Terrain Tiles_safe_6
+  - first:
+      213: 6557476852992099644
+    second: Terrain Tiles_safe_7
+  - first:
+      213: 3952127748721462371
+    second: Terrain Tiles_safe_8
+  - first:
+      213: -1745533543932921203
+    second: Terrain Tiles_safe_9
+  - first:
+      213: 8390942326176524173
+    second: Terrain Tiles_safe_10
+  - first:
+      213: -3124379885844415459
+    second: Terrain Tiles_safe_11
+  - first:
+      213: 8980123848481369342
+    second: Terrain Tiles_safe_12
+  - first:
+      213: 7468491563162235897
+    second: Terrain Tiles_safe_13
+  - first:
+      213: 7858686076979344892
+    second: Terrain Tiles_safe_14
+  - first:
+      213: -3497156451664947740
+    second: Terrain Tiles_safe_15
+  - first:
+      213: -6074755391631779085
+    second: Terrain Tiles_safe_16
+  - first:
+      213: -4355813274826168812
+    second: Terrain Tiles_safe_17
+  - first:
+      213: -7081342438508598607
+    second: Terrain Tiles_safe_18
+  - first:
+      213: -1921371055965365822
+    second: Terrain Tiles_safe_19
+  - first:
+      213: 6981709638484043447
+    second: Terrain Tiles_safe_20
+  - first:
+      213: -2279633628566853079
+    second: Terrain Tiles_safe_21
+  - first:
+      213: -1801453579703680820
+    second: Terrain Tiles_safe_22
+  - first:
+      213: 8961540860457033910
+    second: Terrain Tiles_safe_23
+  - first:
+      213: 8684406879244818071
+    second: Terrain Tiles_safe_24
+  - first:
+      213: -5564322700024837725
+    second: Terrain Tiles_safe_25
+  - first:
+      213: 2253967807510777788
+    second: Terrain Tiles_safe_26
+  - first:
+      213: 1020116938921063177
+    second: Terrain Tiles_safe_27
+  - first:
+      213: 2800809715287263328
+    second: Terrain Tiles_safe_28
+  - first:
+      213: 4540363523047958231
+    second: Terrain Tiles_safe_29
+  - first:
+      213: 2438101734135102980
+    second: Terrain Tiles_safe_30
+  - first:
+      213: 7351644021045688408
+    second: Terrain Tiles_safe_31
+  - first:
+      213: -2640989344336235761
+    second: Terrain Tiles_safe_32
+  - first:
+      213: -2115770668379333553
+    second: Terrain Tiles_safe_33
+  - first:
+      213: -2091824645843092666
+    second: Terrain Tiles_safe_34
+  - first:
+      213: -1022637160304609406
+    second: Terrain Tiles_safe_35
+  - first:
+      213: -3346471320528583013
+    second: Terrain Tiles_safe_36
+  - first:
+      213: 4841049736859113909
+    second: Terrain Tiles_safe_37
+  - first:
+      213: -1946265205058186201
+    second: Terrain Tiles_safe_38
+  - first:
+      213: 3438487349785126527
+    second: Terrain Tiles_safe_39
+  - first:
+      213: -3314421871789345096
+    second: Terrain Tiles_safe_40
+  - first:
+      213: -8899247682558586607
+    second: Terrain Tiles_safe_41
+  - first:
+      213: -7196335540394185008
+    second: Terrain Tiles_safe_42
+  - first:
+      213: 2587051590524209682
+    second: Terrain Tiles_safe_43
+  - first:
+      213: -647670835305712778
+    second: Terrain Tiles_safe_44
+  - first:
+      213: -2093305706691870648
+    second: Terrain Tiles_safe_45
+  - first:
+      213: -8272876032727910188
+    second: Terrain Tiles_safe_46
+  - first:
+      213: -8908240738663769769
+    second: Terrain Tiles_safe_47
+  - first:
+      213: -4159516252040950797
+    second: Terrain Tiles_safe_48
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +178,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +187,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +210,29 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -71,7 +240,1036 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796cccfe277a1774a95739569797d44e
+      internalID: 2956791701315902555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b4b18d12a420142a646c6fd81ea7c3
+      internalID: -2011842057680911295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac90f165e7cd184584cb7c487871e91
+      internalID: -2564945379663006814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f4420d7112bff4db1f60e1c2349f77
+      internalID: -7417560687281426536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89629cf8ec7fbd94b9ded2bfe4c8cb12
+      internalID: 7746443538490058905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d1d81c9f0d8845a7b9a021989b75d
+      internalID: 6092876256978605645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 444
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6032d6d907ee4344da63e01265e08b7f
+      internalID: -3562910177922219419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b20d55fcd9d1d4fbcd79f9738a083c
+      internalID: 6557476852992099644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b268a5d5ed71ad44838186e9d1861ed
+      internalID: 3952127748721462371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2839b1424064b94a9bced5e3b13e1bb
+      internalID: -1745533543932921203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605fd2121758495499370dd98021d048
+      internalID: 8390942326176524173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e200f10ccda9a24386a07c090cdf8a0
+      internalID: -3124379885844415459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8219850b52cf74d820b7416808c0a3
+      internalID: 8980123848481369342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 376
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770d2c1e1042c334f994709cf2cd3912
+      internalID: 7468491563162235897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e5a6aed46ddea43b24438db4b4c41a
+      internalID: 7858686076979344892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd9e1f11cf5da841a939469480a4030
+      internalID: -3497156451664947740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b410f763206cd44a6a73b7adb888a8
+      internalID: -6074755391631779085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67de9444a1295bb4ea0c95bca1a565cf
+      internalID: -4355813274826168812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865ee6da4c6e7fb4a9134c13130a64ce
+      internalID: -7081342438508598607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe3dead7629544f9b9059619a2d7c4
+      internalID: -1921371055965365822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeceaae4ee72dbf478a569b9f2dd4d92
+      internalID: 6981709638484043447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167ba4e78a73b844197735034fd39b49
+      internalID: -2279633628566853079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70780cbffd6461248b23cb450b94468f
+      internalID: -1801453579703680820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386dd1f6c3dee844ba8a3eb0a70b40ad
+      internalID: 8961540860457033910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6e7941e9d4098419d92acf5cc39669
+      internalID: 8684406879244818071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2d6d119cdb44428ed066a4c88babe
+      internalID: -5564322700024837725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9829008c92e413479ad2e5fa2ebe395
+      internalID: 2253967807510777788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 240
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee672d85462694047ac05585088a1cad
+      internalID: 1020116938921063177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672082130592eed4396f3f6aed3af59f
+      internalID: 2800809715287263328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f2ad1d3cfe52d4eb57189ed6402823
+      internalID: 4540363523047958231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5e36055d55f354883fe9841d3f734e
+      internalID: 2438101734135102980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e2e7df4e9433b4d96539a7cfdfa835
+      internalID: 7351644021045688408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23b9020f36155e4f8398bc9f08206e1
+      internalID: -2640989344336235761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370c8772fe49e28468b7beee347a6b82
+      internalID: -2115770668379333553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_34
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 172
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff383f82af1f2469f2cffb3b8a4ff7
+      internalID: -2091824645843092666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f8d7f81dbc3a479b84c94df247294
+      internalID: -1022637160304609406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6562f283a60c9224195c80e06acab43c
+      internalID: -3346471320528583013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047f20d6eee221440b52487326ea6de9
+      internalID: 4841049736859113909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d766c886ae44849b6150469785c594
+      internalID: -1946265205058186201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d08a2aa72da0b48b6d1594aa35f0d1
+      internalID: 3438487349785126527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab478a462da11a64fb088d211d3bb49c
+      internalID: -3314421871789345096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_41
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9f9ea66d9e1db4c86a92b98850030b
+      internalID: -8899247682558586607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff06ef6c3c4e7074c900809a26e0332f
+      internalID: -7196335540394185008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e738edd868bddcd448057c65875c59b6
+      internalID: 2587051590524209682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374d078de18d4734a98f7d2b84d8f305
+      internalID: -647670835305712778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952948f343cff7f4497de8b06c6c4376
+      internalID: -2093305706691870648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced2da300f84e3e49bc8986728126dc8
+      internalID: -8272876032727910188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_47
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7719aa0d92ce34b9254de5d6ef3dcb
+      internalID: -8908240738663769769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Tiles_safe_48
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e94172a09c06c4479fe71b402ec192b
+      internalID: -4159516252040950797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
