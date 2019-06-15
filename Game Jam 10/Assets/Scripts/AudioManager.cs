@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         //futuramente irá tocar a musica tema do jogo
-        Play("Theme");
+        Play("descoberta-v1");
     }
 
     // Update is called once per frame

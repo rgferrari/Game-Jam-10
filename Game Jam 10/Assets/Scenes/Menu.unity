@@ -521,6 +521,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9001134672581812513, guid: 7d0a5c38ba29623468994cba9a2cfc09,
+        type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: descoberta-v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001134672581812513, guid: 7d0a5c38ba29623468994cba9a2cfc09,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 60261c759ec546d498bbc19b5e8410d5, type: 3}
+    - target: {fileID: 9001134672581812513, guid: 7d0a5c38ba29623468994cba9a2cfc09,
+        type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001134672581812513, guid: 7d0a5c38ba29623468994cba9a2cfc09,
+        type: 3}
+      propertyPath: sounds.Array.data[0].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001134672581812513, guid: 7d0a5c38ba29623468994cba9a2cfc09,
+        type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d0a5c38ba29623468994cba9a2cfc09, type: 3}
 --- !u!1 &349959435

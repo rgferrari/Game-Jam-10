@@ -7989,6 +7989,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3119098797636933159, guid: 4729dbe1030f4f54db845697f33bd476,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13615403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3119098797636933159, guid: 4729dbe1030f4f54db845697f33bd476,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.183846
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4729dbe1030f4f54db845697f33bd476, type: 3}
 --- !u!1001 &5881493255628585017
