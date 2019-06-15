@@ -5502,7 +5502,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a8dca59c5d46d34db5e6716bdafc086, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10704328154a3054c9e95ff0e410d1ea, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -7221,7 +7221,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c0fe26b786fa69d4695dc9a491735904, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6a557b2e4f134748b58d5d1dcfd2d7b, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
