@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    private Animator animator;
     private Rigidbody2D playerRigidbody2D;
     private float moveSpeed = 100f;
     float horizontalMove;
@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal"); 
         verticalMove = Input.GetAxisRaw("Vertical");
+        animator.SetFloat("horizontalMove", horizontalMove);
+        animator.SetFloat("verticalMove", verticalMove);
     }
 
     void FixedUpdate()
