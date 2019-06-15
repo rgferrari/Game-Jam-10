@@ -51,5 +51,11 @@ public class PlayerController : MonoBehaviour
             foundTheKey = true;
             UIkey.SetActive(true);
         }
+        if (collide.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Pegou o Player");
+            Destroy(collide.gameObject);
+            countDown.timeLeft -= 10;
+        }
     }
 }
