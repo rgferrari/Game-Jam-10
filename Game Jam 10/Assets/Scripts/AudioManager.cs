@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         //futuramente irá tocar a musica tema do jogo
-        Play("descoberta-v1");
+        //Play("descoberta-v1");
     }
 
     // Update is called once per frame
@@ -50,5 +50,15 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.source.Play();
+    }
+    public void Pause(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound" + name + "not found!");
+            return;
+        }
+        s.source.Pause();
     }
 }
