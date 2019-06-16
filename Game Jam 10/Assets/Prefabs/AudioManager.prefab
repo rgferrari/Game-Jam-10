@@ -46,7 +46,7 @@ MonoBehaviour:
   sounds:
   - name: descoberta-v1
     clip: {fileID: 8300000, guid: 60261c759ec546d498bbc19b5e8410d5, type: 3}
-    volume: 1
+    volume: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -58,13 +58,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: passos-v1
     clip: {fileID: 8300000, guid: f1a675477bc7baa45ba831c10bafccc6, type: 3}
-    volume: 0.992
+    volume: 1
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: pega-item-v1
     clip: {fileID: 8300000, guid: e4db436caffa4524498085dbf4451c4b, type: 3}
-    volume: 1
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
