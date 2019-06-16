@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
+    private AudioManager audioManager;
     public bool isInSafeZone = false;
     public int timeLeft = 60; //Seconds Overall
     public Text countdown; //UI Text Object
     void Start()
     {
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         StartCoroutine("LoseTime");
         Time.timeScale = 1; //Just making sure that the timeScale is right
     }
@@ -19,6 +21,7 @@ public class CountDown : MonoBehaviour
         countdown.text = ("" + timeLeft); //Showing the Score on the Canvas
         if (timeLeft <= 0)
         {
+            audioManager.Play("derrota");
             SceneManager.LoadScene(0);
             Debug.Log("Perdeu!");
         }

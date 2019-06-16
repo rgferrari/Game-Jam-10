@@ -64,7 +64,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: pega-item-v1
     clip: {fileID: 8300000, guid: e4db436caffa4524498085dbf4451c4b, type: 3}
-    volume: 0.1
+    volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -74,9 +74,27 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: 02e94103b2f4bcd4483e3aca9384ca1e, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   - name: chave-v3
     clip: {fileID: 8300000, guid: 2a9972ea492db364bb58babe6d936fc0, type: 3}
     volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: victory
+    clip: {fileID: 8300000, guid: bf11e1da06d11d4468b9198cddf7178c, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: derrota
+    clip: {fileID: 8300000, guid: 9382294d2dd0d0a4b8ef82c4d406b682, type: 3}
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}

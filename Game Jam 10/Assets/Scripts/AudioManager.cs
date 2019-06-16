@@ -54,7 +54,7 @@ public class AudioManager : MonoBehaviour
         {
             if (!isMenu)
             {
-                //Pause("theme");
+                Pause("theme");
                 Play("descoberta-v1");
                 isMenu = true;
             }
@@ -64,7 +64,7 @@ public class AudioManager : MonoBehaviour
         {
             if (isMenu) { 
                 Pause("descoberta-v1");
-                //Play("theme");
+                Play("theme");
                 isMenu = false;
             }
         }

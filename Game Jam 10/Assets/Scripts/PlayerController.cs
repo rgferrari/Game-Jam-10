@@ -86,8 +86,15 @@ public class PlayerController : MonoBehaviour
         {
             if (foundTheKey)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                audioManager.Play("chave-v3");
+                if (SceneManager.GetActiveScene().buildIndex == 2)
+                {
+                    audioManager.Play("victory");
+                    SceneManager.LoadScene(0);
+                }
+                else {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    audioManager.Play("chave-v3");
+                }
             }
             else
             {
