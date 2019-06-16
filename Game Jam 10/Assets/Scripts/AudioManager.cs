@@ -1,12 +1,15 @@
 ﻿using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
     public static AudioManager instance;
+
+    bool isMenu = true;
 
     // Start is called before the first frame update
     void Awake()
@@ -38,7 +41,33 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         //futuramente irá tocar a musica tema do jogo
-        //Play("descoberta-v1");
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            Play("descoberta-v1");
+            isMenu = true;
+        }
+    }
+
+    private void Update()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            if (!isMenu)
+            {
+                //Pause("theme");
+                Play("descoberta-v1");
+                isMenu = true;
+            }
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            if (isMenu) { 
+                Pause("descoberta-v1");
+                //Play("theme");
+                isMenu = false;
+            }
+        }
     }
 
     // Update is called once per frame
