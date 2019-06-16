@@ -7,6 +7,8 @@ TagManager:
   - Fuel
   - Key
   - Enemy
+  - SafeZone
+  - Door
   layers:
   - Default
   - TransparentFX

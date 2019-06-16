@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -56,6 +57,35 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Pegou o Player");
             Destroy(collide.gameObject);
             countDown.timeLeft -= 10;
+        }
+        if (collide.gameObject.tag == "Door")
+        {
+            if (foundTheKey)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                Debug.Log("Sem chave n adianta meu parsa");
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collide)
+    {
+        if (collide.gameObject.tag == "SafeZone")
+        {
+            Debug.Log("Ta safe");
+            countDown.isInSafeZone = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collide)
+    {
+        if (collide.gameObject.tag == "SafeZone")
+        {
+            Debug.Log("Ta safe");
+            countDown.isInSafeZone = false;
         }
     }
 }

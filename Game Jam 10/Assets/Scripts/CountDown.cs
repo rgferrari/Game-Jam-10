@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
+    public bool isInSafeZone = false;
     public int timeLeft = 60; //Seconds Overall
     public Text countdown; //UI Text Object
     void Start()
@@ -17,6 +19,7 @@ public class CountDown : MonoBehaviour
         countdown.text = ("" + timeLeft); //Showing the Score on the Canvas
         if (timeLeft <= 0)
         {
+            SceneManager.LoadScene(0);
             Debug.Log("Perdeu!");
         }
     }
@@ -25,8 +28,11 @@ public class CountDown : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1);
-            timeLeft--;
+                yield return new WaitForSeconds(1);
+            if (!isInSafeZone)
+            {
+                timeLeft--;
+            }
         }
     }
 }
