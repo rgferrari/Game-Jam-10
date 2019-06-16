@@ -1,24 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class GhostController : MonoBehaviour
 {
+    private AIPath aiPath;
     private Animator animator;
-    private Vector2 velocity;
+    private float velocity;
 
     // Start is called before the first frame update
     void Start()
     {
-        velocity = GetComponent<Rigidbody2D>().velocity;
+        aiPath = GetComponent<AIPath>();
         animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(velocity);
-        animator.SetFloat("horizontalMove", velocity.x);
-        animator.SetFloat("verticalMove", velocity.y);
+        velocity = aiPath.desiredVelocity.x;
+        Debug.Log("" + velocity);
+        //animator.SetFloat("horizontalMove", velocity.x);
+        //animator.SetFloat("verticalMove", velocity.y);
     }
 }
