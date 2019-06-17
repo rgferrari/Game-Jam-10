@@ -389,7 +389,7 @@ PrefabInstance:
     - target: {fileID: 6105732881566532234, guid: 4729dbe1030f4f54db845697f33bd476,
         type: 3}
       propertyPath: timeLeft
-      value: 10
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4729dbe1030f4f54db845697f33bd476, type: 3}
@@ -15564,5 +15564,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 182697666}
+    - target: {fileID: 2276266143772857218, guid: 26bdb5f64a681da48a2fe23141f68b6c,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 85c7a89c5acd3a54d9c8113a094d161b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26bdb5f64a681da48a2fe23141f68b6c, type: 3}
